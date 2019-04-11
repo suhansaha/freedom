@@ -2,3 +2,8 @@
 .ipynb_checkpoints
 .ipynb_checkpoints/*
 kite_data/*.h5
+kite_data/livestream.csv
+kite_data/livestreamohlc.csv
+kite_data/recommendation.csv
+log
+log/*
