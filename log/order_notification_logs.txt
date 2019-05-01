@@ -1,0 +1,806 @@
+[2019-04-30 14:54:17,095: INFO]:U5dQHbktG0WMhsk6J3AwgATk6lwG1OzP
+[2019-04-30 14:54:17,095: DEBUG]:Starting new HTTPS connection (1): api.kite.trade:443
+[2019-04-30 14:54:17,502: DEBUG]:https://api.kite.trade:443 "GET /user/profile HTTP/1.1" 200 None
+[2019-04-30 14:54:17,502: INFO]:Welcome Suhan Saha
+[2019-04-30 14:54:17,502: DEBUG]:Exchange not defined: Using default NSE
+[2019-04-30 14:54:17,502: DEBUG]:Starting new HTTPS connection (1): api.kite.trade:443
+[2019-04-30 14:54:17,845: DEBUG]:https://api.kite.trade:443 "GET /instruments/NSE?exchange=NSE HTTP/1.1" 200 161750
+[2019-04-30 14:54:18,064: DEBUG]:Loaded backend module://ipykernel.pylab.backend_inline version unknown.
+[2019-04-30 14:54:18,079: INFO]:Let's do trading
+[2019-04-30 14:54:23,935: DEBUG]:AlgoTrade Called: BHARTIARTL
+[2019-04-30 14:54:23,935: INFO]:Downloading data for: BHARTIARTL
+[2019-04-30 14:54:23,966: INFO]:Downloading data from rDate to toDate
+[2019-04-30 14:54:23,966: DEBUG]:Starting new HTTPS connection (1): api.kite.trade:443
+[2019-04-30 14:54:24,310: DEBUG]:https://api.kite.trade:443 "GET /instruments/historical/2714625/minute?instrument_token=2714625&from=2019-04-30+14%3A52%3A00&to=2019-04-30+14%3A54%3A23&interval=minute&continuous=0 HTTP/1.1" 200 None
+[2019-04-30 14:54:24,373: DEBUG]:[2714625]
+[2019-04-30 14:54:24,576: DEBUG]:2019-04-30 14:54:23: In resampler function
+[2019-04-30 14:54:24,576: DEBUG]:2019-04-30 14:54:23: Empty dataframe, Exiting resampler
+[2019-04-30 14:55:24,695: DEBUG]:2019-04-30 14:55:23: In resampler function
+[2019-04-30 14:55:24,710: DEBUG]:BHARTIARTL
+[2019-04-30 14:55:24,726: DEBUG]:                                  open   high     low   close  volume
+symbol     date                                                      
+BHARTIARTL 2019-04-30 14:54:00  318.55  318.7  318.50  318.55     NaN
+           2019-04-30 14:55:00  318.55  318.7  318.55  318.70  3163.0
+[2019-04-30 14:55:24,726: DEBUG]:                      close    high     low    open   volume
+date                                                        
+2019-04-30 14:46:00  318.75  319.25  318.20  318.20  29481.0
+2019-04-30 14:47:00  318.80  318.95  318.75  318.75   7277.0
+2019-04-30 14:48:00  318.40  318.70  318.40  318.60   6196.0
+2019-04-30 14:49:00  318.65  318.70  318.35  318.45   6578.0
+2019-04-30 14:50:00  318.50  318.70  318.50  318.55   5017.0
+2019-04-30 14:51:00  318.60  318.70  318.50  318.50   2702.0
+2019-04-30 14:52:00  318.60  318.70  318.60  318.70   2773.0
+2019-04-30 14:53:00  318.55  318.75  318.50  318.55  16380.0
+2019-04-30 14:54:00  318.60  318.70  318.55  318.55   1580.0
+2019-04-30 14:55:00  318.70  318.70  318.55  318.55   3163.0
+[2019-04-30 14:55:24,757: DEBUG]:318.7
+[2019-04-30 14:56:23,945: DEBUG]:2019-04-30 14:56:23: In resampler function
+[2019-04-30 14:56:23,960: DEBUG]:BHARTIARTL
+[2019-04-30 14:56:23,960: DEBUG]:                                  open   high    low   close   volume
+symbol     date                                                      
+BHARTIARTL 2019-04-30 14:54:00  318.55  318.7  318.5  318.55      NaN
+           2019-04-30 14:55:00  318.55  318.7  318.5  318.60  13900.0
+           2019-04-30 14:56:00  318.60  318.7  318.6  318.60   2895.0
+[2019-04-30 14:56:23,960: DEBUG]:                      close    high     low    open   volume
+date                                                        
+2019-04-30 14:47:00  318.80  318.95  318.75  318.75   7277.0
+2019-04-30 14:48:00  318.40  318.70  318.40  318.60   6196.0
+2019-04-30 14:49:00  318.65  318.70  318.35  318.45   6578.0
+2019-04-30 14:50:00  318.50  318.70  318.50  318.55   5017.0
+2019-04-30 14:51:00  318.60  318.70  318.50  318.50   2702.0
+2019-04-30 14:52:00  318.60  318.70  318.60  318.70   2773.0
+2019-04-30 14:53:00  318.55  318.75  318.50  318.55  16380.0
+2019-04-30 14:54:00  318.60  318.70  318.55  318.55   1580.0
+2019-04-30 14:55:00  318.70  318.70  318.55  318.55   3163.0
+2019-04-30 14:56:00  318.60  318.70  318.60  318.60   2895.0
+[2019-04-30 14:56:23,993: DEBUG]:318.6
+[2019-04-30 14:57:23,396: DEBUG]:2019-04-30 14:57:23: In resampler function
+[2019-04-30 14:57:23,412: DEBUG]:BHARTIARTL
+[2019-04-30 14:57:23,412: DEBUG]:                                  open    high     low   close   volume
+symbol     date                                                        
+BHARTIARTL 2019-04-30 14:54:00  318.55  318.70  318.50  318.55      NaN
+           2019-04-30 14:55:00  318.55  318.70  318.50  318.60  13900.0
+           2019-04-30 14:56:00  318.60  318.70  318.45  318.65  15950.0
+           2019-04-30 14:57:00  318.60  318.95  318.60  318.80  35741.0
+[2019-04-30 14:57:23,427: DEBUG]:                      close    high     low    open   volume
+date                                                        
+2019-04-30 14:48:00  318.40  318.70  318.40  318.60   6196.0
+2019-04-30 14:49:00  318.65  318.70  318.35  318.45   6578.0
+2019-04-30 14:50:00  318.50  318.70  318.50  318.55   5017.0
+2019-04-30 14:51:00  318.60  318.70  318.50  318.50   2702.0
+2019-04-30 14:52:00  318.60  318.70  318.60  318.70   2773.0
+2019-04-30 14:53:00  318.55  318.75  318.50  318.55  16380.0
+2019-04-30 14:54:00  318.60  318.70  318.55  318.55   1580.0
+2019-04-30 14:55:00  318.70  318.70  318.55  318.55   3163.0
+2019-04-30 14:56:00  318.60  318.70  318.60  318.60   2895.0
+2019-04-30 14:57:00  318.80  318.95  318.60  318.60  35741.0
+[2019-04-30 14:57:23,458: DEBUG]:318.8
+[2019-04-30 14:58:02,852: DEBUG]:Starting new HTTPS connection (1): api.kite.trade:443
+[2019-04-30 14:58:03,182: DEBUG]:https://api.kite.trade:443 "GET /quote/ltp?i=2714625 HTTP/1.1" 200 None
+[2019-04-30 14:58:24,558: DEBUG]:2019-04-30 14:58:24: In resampler function
+[2019-04-30 14:58:24,574: DEBUG]:BHARTIARTL
+[2019-04-30 14:58:24,574: DEBUG]:                                  open    high     low   close   volume
+symbol     date                                                        
+BHARTIARTL 2019-04-30 14:54:00  318.55  318.70  318.50  318.55      NaN
+           2019-04-30 14:55:00  318.55  318.70  318.50  318.60  13900.0
+           2019-04-30 14:56:00  318.60  318.70  318.45  318.65  15950.0
+           2019-04-30 14:57:00  318.60  318.95  318.55  318.80  43753.0
+           2019-04-30 14:58:00  318.65  318.80  318.65  318.70   3872.0
+[2019-04-30 14:58:24,589: DEBUG]:                      close    high     low    open   volume
+date                                                        
+2019-04-30 14:49:00  318.65  318.70  318.35  318.45   6578.0
+2019-04-30 14:50:00  318.50  318.70  318.50  318.55   5017.0
+2019-04-30 14:51:00  318.60  318.70  318.50  318.50   2702.0
+2019-04-30 14:52:00  318.60  318.70  318.60  318.70   2773.0
+2019-04-30 14:53:00  318.55  318.75  318.50  318.55  16380.0
+2019-04-30 14:54:00  318.60  318.70  318.55  318.55   1580.0
+2019-04-30 14:55:00  318.70  318.70  318.55  318.55   3163.0
+2019-04-30 14:56:00  318.60  318.70  318.60  318.60   2895.0
+2019-04-30 14:57:00  318.80  318.95  318.60  318.60  35741.0
+2019-04-30 14:58:00  318.70  318.80  318.65  318.65   3872.0
+[2019-04-30 14:58:24,605: DEBUG]:318.7
+[2019-04-30 14:58:26,123: DEBUG]:Starting new HTTPS connection (1): api.kite.trade:443
+[2019-04-30 14:58:26,467: DEBUG]:https://api.kite.trade:443 "GET /quote/ltp?i=2714625 HTTP/1.1" 200 None
+[2019-04-30 14:58:28,326: INFO]:BUY BO: BHARTIARTL, price: 318.75, squareoff: 3.2, stoploss: 0.35, quantity: 1
+[2019-04-30 14:58:28,342: DEBUG]:Starting new HTTPS connection (1): api.kite.trade:443
+[2019-04-30 14:58:28,623: INFO]:New Order Update
+[2019-04-30 14:58:28,623: DEBUG]:  placed_by         order_id exchange_order_id parent_order_id  \
+0    ZS0527  190430002540274  1000000006410331            None   
+
+            status status_message      order_timestamp  \
+0  TRIGGER PENDING           None  2019-04-30 14:58:28   
+
+  exchange_update_timestamp   exchange_timestamp variety   ...     \
+0                      None  2019-04-30 14:58:28      bo   ...      
+
+  pending_quantity cancelled_quantity market_protection  meta  tag  \
+0                1                  0                 0  None  bot   
+
+               guid account_id unfilled_quantity app_id checksum  
+0  5JYqksoi8gSbW2UX     ZS0527                 0  11327           
+
+[1 rows x 33 columns]
+[2019-04-30 14:58:28,670: DEBUG]:https://api.kite.trade:443 "POST /orders/bo HTTP/1.1" 200 None
+[2019-04-30 14:58:28,670: INFO]:Order placed. ID is: 190430002540274
+[2019-04-30 14:58:29,406: INFO]:New Order Update
+[2019-04-30 14:58:29,406: DEBUG]:  placed_by         order_id exchange_order_id parent_order_id    status  \
+0    ZS0527  190430002540274  1000000006410331            None  COMPLETE   
+
+  status_message      order_timestamp exchange_update_timestamp  \
+0           None  2019-04-30 14:58:29                      None   
+
+    exchange_timestamp variety   ...    pending_quantity cancelled_quantity  \
+0  2019-04-30 14:58:29      bo   ...                   0                  0   
+
+  market_protection  meta  tag              guid account_id unfilled_quantity  \
+0                 0  None  bot  5JYqksoi8gSbW2UX     ZS0527                 0   
+
+  app_id checksum  
+0  11327           
+
+[1 rows x 33 columns]
+[2019-04-30 14:58:29,406: INFO]:New Order Update
+[2019-04-30 14:58:29,406: DEBUG]:  placed_by         order_id exchange_order_id parent_order_id status  \
+0    ZS0527  190430002540274  1000000006410331            None   OPEN   
+
+  status_message      order_timestamp exchange_update_timestamp  \
+0           None  2019-04-30 14:58:29                      None   
+
+    exchange_timestamp variety   ...    pending_quantity cancelled_quantity  \
+0  2019-04-30 14:58:29      bo   ...                   1                  0   
+
+  market_protection  meta  tag              guid account_id unfilled_quantity  \
+0                 0  None  bot  5JYqksoi8gSbW2UX     ZS0527                 0   
+
+  app_id checksum  
+0  11327           
+
+[1 rows x 33 columns]
+[2019-04-30 14:58:29,406: INFO]:New Order Update
+[2019-04-30 14:58:29,406: DEBUG]:  placed_by         order_id exchange_order_id  parent_order_id status  \
+0    ZS0527  190430002540394  1000000006410703  190430002540274   OPEN   
+
+  status_message      order_timestamp exchange_update_timestamp  \
+0           None  2019-04-30 14:58:29                      None   
+
+    exchange_timestamp variety   ...    pending_quantity cancelled_quantity  \
+0  2019-04-30 14:58:29      bo   ...                   1                  0   
+
+  market_protection  meta  tag  guid account_id unfilled_quantity app_id  \
+0                 0  None  bot  None     ZS0527                 0  11327   
+
+  checksum  
+0           
+
+[1 rows x 33 columns]
+[2019-04-30 14:58:29,422: INFO]:New Order Update
+[2019-04-30 14:58:29,422: DEBUG]:  placed_by         order_id exchange_order_id  parent_order_id  \
+0    ZS0527  190430002540395  1000000006410705  190430002540274   
+
+            status status_message      order_timestamp  \
+0  TRIGGER PENDING           None  2019-04-30 14:58:29   
+
+  exchange_update_timestamp   exchange_timestamp variety   ...     \
+0                      None  2019-04-30 14:58:29      bo   ...      
+
+  pending_quantity cancelled_quantity market_protection  meta  tag  guid  \
+0                1                  0                 0  None  bot  None   
+
+  account_id unfilled_quantity app_id checksum  
+0     ZS0527                 0  11327           
+
+[1 rows x 33 columns]
+[2019-04-30 14:59:25,747: DEBUG]:2019-04-30 14:59:25: In resampler function
+[2019-04-30 14:59:25,762: DEBUG]:BHARTIARTL
+[2019-04-30 14:59:25,762: DEBUG]:                                  open    high     low   close   volume
+symbol     date                                                        
+BHARTIARTL 2019-04-30 14:55:00  318.55  318.70  318.50  318.60  13900.0
+           2019-04-30 14:56:00  318.60  318.70  318.45  318.65  15950.0
+           2019-04-30 14:57:00  318.60  318.95  318.55  318.80  43753.0
+           2019-04-30 14:58:00  318.65  318.80  318.50  318.70  10377.0
+           2019-04-30 14:59:00  318.50  318.70  318.50  318.55   3445.0
+[2019-04-30 14:59:25,778: DEBUG]:                      close    high     low    open   volume
+date                                                        
+2019-04-30 14:50:00  318.50  318.70  318.50  318.55   5017.0
+2019-04-30 14:51:00  318.60  318.70  318.50  318.50   2702.0
+2019-04-30 14:52:00  318.60  318.70  318.60  318.70   2773.0
+2019-04-30 14:53:00  318.55  318.75  318.50  318.55  16380.0
+2019-04-30 14:54:00  318.60  318.70  318.55  318.55   1580.0
+2019-04-30 14:55:00  318.70  318.70  318.55  318.55   3163.0
+2019-04-30 14:56:00  318.60  318.70  318.60  318.60   2895.0
+2019-04-30 14:57:00  318.80  318.95  318.60  318.60  35741.0
+2019-04-30 14:58:00  318.70  318.80  318.65  318.65   3872.0
+2019-04-30 14:59:00  318.55  318.70  318.50  318.50   3445.0
+[2019-04-30 14:59:25,793: DEBUG]:318.55
+[2019-04-30 14:59:27,154: DEBUG]:Starting new HTTPS connection (1): api.kite.trade:443
+[2019-04-30 14:59:27,639: DEBUG]:https://api.kite.trade:443 "GET /orders HTTP/1.1" 200 None
+[2019-04-30 14:59:32,817: DEBUG]:Starting new HTTPS connection (1): api.kite.trade:443
+[2019-04-30 14:59:33,145: DEBUG]:https://api.kite.trade:443 "DELETE /orders/bo/190430001728119?order_id=190430001728119&variety=bo HTTP/1.1" 200 None
+[2019-04-30 15:00:25,752: DEBUG]:2019-04-30 15:00:25: In resampler function
+[2019-04-30 15:00:25,784: DEBUG]:BHARTIARTL
+[2019-04-30 15:00:25,784: DEBUG]:                                  open    high     low   close   volume
+symbol     date                                                        
+BHARTIARTL 2019-04-30 14:56:00  318.60  318.70  318.45  318.65  15950.0
+           2019-04-30 14:57:00  318.60  318.95  318.55  318.80  43753.0
+           2019-04-30 14:58:00  318.65  318.80  318.50  318.70  10377.0
+           2019-04-30 14:59:00  318.50  318.80  318.50  318.80  18451.0
+           2019-04-30 15:00:00  318.80  319.50  318.75  319.40  37266.0
+[2019-04-30 15:00:25,784: DEBUG]:                      close    high     low    open   volume
+date                                                        
+2019-04-30 14:51:00  318.60  318.70  318.50  318.50   2702.0
+2019-04-30 14:52:00  318.60  318.70  318.60  318.70   2773.0
+2019-04-30 14:53:00  318.55  318.75  318.50  318.55  16380.0
+2019-04-30 14:54:00  318.60  318.70  318.55  318.55   1580.0
+2019-04-30 14:55:00  318.70  318.70  318.55  318.55   3163.0
+2019-04-30 14:56:00  318.60  318.70  318.60  318.60   2895.0
+2019-04-30 14:57:00  318.80  318.95  318.60  318.60  35741.0
+2019-04-30 14:58:00  318.70  318.80  318.65  318.65   3872.0
+2019-04-30 14:59:00  318.55  318.70  318.50  318.50   3445.0
+2019-04-30 15:00:00  319.40  319.50  318.75  318.80  37266.0
+[2019-04-30 15:00:25,815: DEBUG]:319.4
+[2019-04-30 15:00:56,548: DEBUG]:Starting new HTTPS connection (1): api.kite.trade:443
+[2019-04-30 15:00:56,908: DEBUG]:https://api.kite.trade:443 "GET /orders HTTP/1.1" 200 None
+[2019-04-30 15:01:25,735: DEBUG]:2019-04-30 15:01:25: In resampler function
+[2019-04-30 15:01:25,750: DEBUG]:BHARTIARTL
+[2019-04-30 15:01:25,750: DEBUG]:                                  open    high     low   close   volume
+symbol     date                                                        
+BHARTIARTL 2019-04-30 14:57:00  318.60  318.95  318.55  318.80  43753.0
+           2019-04-30 14:58:00  318.65  318.80  318.50  318.70  10377.0
+           2019-04-30 14:59:00  318.50  318.80  318.50  318.80  18451.0
+           2019-04-30 15:00:00  318.80  320.50  318.75  320.50  74297.0
+           2019-04-30 15:01:00  320.40  320.95  320.40  320.85  26475.0
+[2019-04-30 15:01:25,750: DEBUG]:                      close    high     low    open   volume
+date                                                        
+2019-04-30 14:52:00  318.60  318.70  318.60  318.70   2773.0
+2019-04-30 14:53:00  318.55  318.75  318.50  318.55  16380.0
+2019-04-30 14:54:00  318.60  318.70  318.55  318.55   1580.0
+2019-04-30 14:55:00  318.70  318.70  318.55  318.55   3163.0
+2019-04-30 14:56:00  318.60  318.70  318.60  318.60   2895.0
+2019-04-30 14:57:00  318.80  318.95  318.60  318.60  35741.0
+2019-04-30 14:58:00  318.70  318.80  318.65  318.65   3872.0
+2019-04-30 14:59:00  318.55  318.70  318.50  318.50   3445.0
+2019-04-30 15:00:00  319.40  319.50  318.75  318.80  37266.0
+2019-04-30 15:01:00  320.85  320.95  320.40  320.40  26475.0
+[2019-04-30 15:01:25,782: DEBUG]:320.85
+[2019-04-30 15:01:25,782: DEBUG]:Place Order: WAIT
+[2019-04-30 15:01:45,739: DEBUG]:Starting new HTTPS connection (1): api.kite.trade:443
+[2019-04-30 15:01:46,052: DEBUG]:https://api.kite.trade:443 "GET /orders HTTP/1.1" 200 None
+[2019-04-30 15:02:14,598: DEBUG]:Starting new HTTPS connection (1): api.kite.trade:443
+[2019-04-30 15:02:14,941: DEBUG]:https://api.kite.trade:443 "DELETE /orders/bo/190430002540394?order_id=190430002540394&variety=bo&parent_order_id=190430002540274 HTTP/1.1" 200 None
+[2019-04-30 15:02:14,941: INFO]:New Order Update
+[2019-04-30 15:02:14,941: DEBUG]:  placed_by         order_id exchange_order_id  parent_order_id  status  \
+0    ZS0527  190430002540395  1000000006410705  190430002540274  UPDATE   
+
+  status_message      order_timestamp exchange_update_timestamp  \
+0           None  2019-04-30 15:02:14                      None   
+
+    exchange_timestamp variety   ...    pending_quantity cancelled_quantity  \
+0  2019-04-30 15:02:14      bo   ...                   1                  0   
+
+  market_protection  meta  tag  guid account_id unfilled_quantity app_id  \
+0                 0  None  bot  None     ZS0527                 0  11327   
+
+  checksum  
+0           
+
+[1 rows x 33 columns]
+[2019-04-30 15:02:14,957: INFO]:New Order Update
+[2019-04-30 15:02:14,957: DEBUG]:  placed_by         order_id exchange_order_id  parent_order_id    status  \
+0    ZS0527  190430002540395  1000000006410705  190430002540274  COMPLETE   
+
+  status_message      order_timestamp exchange_update_timestamp  \
+0           None  2019-04-30 15:02:14                      None   
+
+    exchange_timestamp variety   ...    pending_quantity cancelled_quantity  \
+0  2019-04-30 15:02:14      bo   ...                   0                  0   
+
+  market_protection  meta  tag  guid account_id unfilled_quantity app_id  \
+0                 0  None  bot  None     ZS0527                 0  11327   
+
+  checksum  
+0           
+
+[1 rows x 33 columns]
+[2019-04-30 15:02:14,957: INFO]:New Order Update
+[2019-04-30 15:02:14,957: DEBUG]:  placed_by         order_id exchange_order_id  parent_order_id     status  \
+0    ZS0527  190430002540394  1000000006410703  190430002540274  CANCELLED   
+
+  status_message      order_timestamp exchange_update_timestamp  \
+0           None  2019-04-30 15:02:14                      None   
+
+    exchange_timestamp variety   ...    pending_quantity cancelled_quantity  \
+0  2019-04-30 15:02:14      bo   ...                   0                  1   
+
+  market_protection  meta  tag  guid account_id unfilled_quantity app_id  \
+0                 0  None  bot  None     ZS0527                 0  11327   
+
+  checksum  
+0           
+
+[1 rows x 33 columns]
+[2019-04-30 15:02:14,957: INFO]:New Order Update
+[2019-04-30 15:02:14,957: DEBUG]:  placed_by         order_id exchange_order_id  parent_order_id     status  \
+0    ZS0527  190430002540394  1000000006410703  190430002540274  CANCELLED   
+
+  status_message      order_timestamp exchange_update_timestamp  \
+0           None  2019-04-30 15:02:14                      None   
+
+    exchange_timestamp variety   ...    pending_quantity cancelled_quantity  \
+0  2019-04-30 15:02:14      bo   ...                   1                  1   
+
+  market_protection  meta  tag  guid account_id unfilled_quantity app_id  \
+0                 0  None  bot  None     ZS0527                 0  11327   
+
+  checksum  
+0           
+
+[1 rows x 33 columns]
+[2019-04-30 15:02:14,975: INFO]:New Order Update
+[2019-04-30 15:02:14,975: DEBUG]:  placed_by         order_id exchange_order_id  parent_order_id status  \
+0    ZS0527  190430002540395  1000000006410705  190430002540274   OPEN   
+
+  status_message      order_timestamp exchange_update_timestamp  \
+0           None  2019-04-30 15:02:14                      None   
+
+    exchange_timestamp variety   ...    pending_quantity cancelled_quantity  \
+0  2019-04-30 15:02:14      bo   ...                   1                  0   
+
+  market_protection  meta  tag  guid account_id unfilled_quantity app_id  \
+0                 0  None  bot  None     ZS0527                 0  11327   
+
+  checksum  
+0           
+
+[1 rows x 33 columns]
+[2019-04-30 15:02:25,768: DEBUG]:2019-04-30 15:02:25: In resampler function
+[2019-04-30 15:02:25,800: DEBUG]:BHARTIARTL
+[2019-04-30 15:02:25,800: DEBUG]:                                  open    high     low   close   volume
+symbol     date                                                        
+BHARTIARTL 2019-04-30 14:58:00  318.65  318.80  318.50  318.70  10377.0
+           2019-04-30 14:59:00  318.50  318.80  318.50  318.80  18451.0
+           2019-04-30 15:00:00  318.80  320.50  318.75  320.50  74297.0
+           2019-04-30 15:01:00  320.40  320.95  320.40  320.75  48118.0
+           2019-04-30 15:02:00  320.85  320.90  320.80  320.80  14776.0
+[2019-04-30 15:02:25,800: DEBUG]:                      close    high     low    open   volume
+date                                                        
+2019-04-30 14:53:00  318.55  318.75  318.50  318.55  16380.0
+2019-04-30 14:54:00  318.60  318.70  318.55  318.55   1580.0
+2019-04-30 14:55:00  318.70  318.70  318.55  318.55   3163.0
+2019-04-30 14:56:00  318.60  318.70  318.60  318.60   2895.0
+2019-04-30 14:57:00  318.80  318.95  318.60  318.60  35741.0
+2019-04-30 14:58:00  318.70  318.80  318.65  318.65   3872.0
+2019-04-30 14:59:00  318.55  318.70  318.50  318.50   3445.0
+2019-04-30 15:00:00  319.40  319.50  318.75  318.80  37266.0
+2019-04-30 15:01:00  320.85  320.95  320.40  320.40  26475.0
+2019-04-30 15:02:00  320.80  320.90  320.80  320.85  14776.0
+[2019-04-30 15:02:25,831: DEBUG]:320.8
+[2019-04-30 15:03:25,780: DEBUG]:2019-04-30 15:03:25: In resampler function
+[2019-04-30 15:03:25,799: DEBUG]:BHARTIARTL
+[2019-04-30 15:03:25,801: DEBUG]:                                  open    high     low   close   volume
+symbol     date                                                        
+BHARTIARTL 2019-04-30 14:59:00  318.50  318.80  318.50  318.80  18451.0
+           2019-04-30 15:00:00  318.80  320.50  318.75  320.50  74297.0
+           2019-04-30 15:01:00  320.40  320.95  320.40  320.75  48118.0
+           2019-04-30 15:02:00  320.85  320.90  320.25  320.45  31521.0
+           2019-04-30 15:03:00  320.45  320.50  320.35  320.45   7702.0
+[2019-04-30 15:03:25,806: DEBUG]:                      close    high     low    open   volume
+date                                                        
+2019-04-30 14:54:00  318.60  318.70  318.55  318.55   1580.0
+2019-04-30 14:55:00  318.70  318.70  318.55  318.55   3163.0
+2019-04-30 14:56:00  318.60  318.70  318.60  318.60   2895.0
+2019-04-30 14:57:00  318.80  318.95  318.60  318.60  35741.0
+2019-04-30 14:58:00  318.70  318.80  318.65  318.65   3872.0
+2019-04-30 14:59:00  318.55  318.70  318.50  318.50   3445.0
+2019-04-30 15:00:00  319.40  319.50  318.75  318.80  37266.0
+2019-04-30 15:01:00  320.85  320.95  320.40  320.40  26475.0
+2019-04-30 15:02:00  320.80  320.90  320.80  320.85  14776.0
+2019-04-30 15:03:00  320.45  320.50  320.35  320.45   7702.0
+[2019-04-30 15:03:25,832: DEBUG]:320.45
+[2019-04-30 15:04:09,673: DEBUG]:Starting new HTTPS connection (1): api.kite.trade:443
+[2019-04-30 15:04:10,017: DEBUG]:https://api.kite.trade:443 "GET /orders HTTP/1.1" 200 None
+[2019-04-30 15:04:25,785: DEBUG]:2019-04-30 15:04:25: In resampler function
+[2019-04-30 15:04:25,803: DEBUG]:BHARTIARTL
+[2019-04-30 15:04:25,805: DEBUG]:                                  open    high     low   close   volume
+symbol     date                                                        
+BHARTIARTL 2019-04-30 15:00:00  318.80  320.50  318.75  320.50  74297.0
+           2019-04-30 15:01:00  320.40  320.95  320.40  320.75  48118.0
+           2019-04-30 15:02:00  320.85  320.90  320.25  320.45  31521.0
+           2019-04-30 15:03:00  320.45  320.50  320.35  320.35  25488.0
+           2019-04-30 15:04:00  320.35  320.80  320.35  320.50  29909.0
+[2019-04-30 15:04:25,811: DEBUG]:                      close    high     low    open   volume
+date                                                        
+2019-04-30 14:55:00  318.70  318.70  318.55  318.55   3163.0
+2019-04-30 14:56:00  318.60  318.70  318.60  318.60   2895.0
+2019-04-30 14:57:00  318.80  318.95  318.60  318.60  35741.0
+2019-04-30 14:58:00  318.70  318.80  318.65  318.65   3872.0
+2019-04-30 14:59:00  318.55  318.70  318.50  318.50   3445.0
+2019-04-30 15:00:00  319.40  319.50  318.75  318.80  37266.0
+2019-04-30 15:01:00  320.85  320.95  320.40  320.40  26475.0
+2019-04-30 15:02:00  320.80  320.90  320.80  320.85  14776.0
+2019-04-30 15:03:00  320.45  320.50  320.35  320.45   7702.0
+2019-04-30 15:04:00  320.50  320.80  320.35  320.35  29909.0
+[2019-04-30 15:04:25,836: DEBUG]:320.5
+[2019-04-30 15:04:51,028: DEBUG]:Starting new HTTPS connection (1): api.kite.trade:443
+[2019-04-30 15:04:51,426: DEBUG]:https://api.kite.trade:443 "GET /quote/ltp?i=2714625 HTTP/1.1" 200 None
+[2019-04-30 15:04:54,295: INFO]:BUY BO: BHARTIARTL, price: 320.85, squareoff: 3.25, stoploss: 0.35, quantity: 1
+[2019-04-30 15:04:54,298: DEBUG]:Starting new HTTPS connection (1): api.kite.trade:443
+[2019-04-30 15:04:54,639: DEBUG]:https://api.kite.trade:443 "POST /orders/bo HTTP/1.1" 200 None
+[2019-04-30 15:04:54,641: INFO]:Order placed. ID is: 190430002596350
+[2019-04-30 15:04:54,697: INFO]:New Order Update
+[2019-04-30 15:04:54,698: DEBUG]:                                             0
+placed_by                               ZS0527
+order_id                       190430002596350
+exchange_order_id             1000000006566076
+parent_order_id                           None
+status                         TRIGGER PENDING
+status_message                            None
+order_timestamp            2019-04-30 15:04:54
+exchange_update_timestamp                 None
+exchange_timestamp         2019-04-30 15:04:54
+variety                                     bo
+exchange                                   NSE
+tradingsymbol                       BHARTIARTL
+instrument_token                       2714625
+order_type                                  SL
+transaction_type                           BUY
+validity                                   DAY
+product                                     BO
+quantity                                     1
+disclosed_quantity                           0
+price                                   320.85
+trigger_price                           320.85
+average_price                                0
+filled_quantity                              0
+pending_quantity                             1
+cancelled_quantity                           0
+market_protection                            0
+meta                                      None
+tag                                        bot
+guid                          unxVZTm6kOsF6R4S
+account_id                              ZS0527
+unfilled_quantity                            0
+app_id                                   11327
+checksum                                      
+[2019-04-30 15:04:54,700: INFO]:New Order Update
+[2019-04-30 15:04:54,700: DEBUG]:                                             0
+placed_by                               ZS0527
+order_id                       190430002596350
+exchange_order_id             1000000006566076
+parent_order_id                           None
+status                                    OPEN
+status_message                            None
+order_timestamp            2019-04-30 15:04:54
+exchange_update_timestamp                 None
+exchange_timestamp         2019-04-30 15:04:54
+variety                                     bo
+exchange                                   NSE
+tradingsymbol                       BHARTIARTL
+instrument_token                       2714625
+order_type                               LIMIT
+transaction_type                           BUY
+validity                                   DAY
+product                                     BO
+quantity                                     1
+disclosed_quantity                           0
+price                                   320.85
+trigger_price                           320.85
+average_price                                0
+filled_quantity                              0
+pending_quantity                             1
+cancelled_quantity                           0
+market_protection                            0
+meta                                      None
+tag                                        bot
+guid                          unxVZTm6kOsF6R4S
+account_id                              ZS0527
+unfilled_quantity                            0
+app_id                                   11327
+checksum                                      
+[2019-04-30 15:04:59,883: INFO]:New Order Update
+[2019-04-30 15:04:59,883: DEBUG]:                                             0
+placed_by                               ZS0527
+order_id                       190430002596350
+exchange_order_id             1000000006566076
+parent_order_id                           None
+status                                COMPLETE
+status_message                            None
+order_timestamp            2019-04-30 15:04:59
+exchange_update_timestamp                 None
+exchange_timestamp         2019-04-30 15:04:54
+variety                                     bo
+exchange                                   NSE
+tradingsymbol                       BHARTIARTL
+instrument_token                       2714625
+order_type                               LIMIT
+transaction_type                           BUY
+validity                                   DAY
+product                                     BO
+quantity                                     1
+disclosed_quantity                           0
+price                                   320.85
+trigger_price                           320.85
+average_price                           320.85
+filled_quantity                              1
+pending_quantity                             0
+cancelled_quantity                           0
+market_protection                            0
+meta                                      None
+tag                                        bot
+guid                          unxVZTm6kOsF6R4S
+account_id                              ZS0527
+unfilled_quantity                            0
+app_id                                   11327
+checksum                                      
+[2019-04-30 15:04:59,958: INFO]:New Order Update
+[2019-04-30 15:04:59,959: DEBUG]:                                             0
+placed_by                               ZS0527
+order_id                       190430002596981
+exchange_order_id             1000000006568429
+parent_order_id                190430002596350
+status                         TRIGGER PENDING
+status_message                            None
+order_timestamp            2019-04-30 15:04:59
+exchange_update_timestamp                 None
+exchange_timestamp         2019-04-30 15:04:59
+variety                                     bo
+exchange                                   NSE
+tradingsymbol                       BHARTIARTL
+instrument_token                       2714625
+order_type                                  SL
+transaction_type                          SELL
+validity                                   DAY
+product                                     BO
+quantity                                     1
+disclosed_quantity                           1
+price                                   292.95
+trigger_price                            320.5
+average_price                                0
+filled_quantity                              0
+pending_quantity                             1
+cancelled_quantity                           0
+market_protection                            0
+meta                                      None
+tag                                        bot
+guid                                      None
+account_id                              ZS0527
+unfilled_quantity                            0
+app_id                                   11327
+checksum                                      
+[2019-04-30 15:04:59,960: INFO]:New Order Update
+[2019-04-30 15:04:59,961: DEBUG]:                                             0
+placed_by                               ZS0527
+order_id                       190430002596980
+exchange_order_id             1000000006568428
+parent_order_id                190430002596350
+status                                    OPEN
+status_message                            None
+order_timestamp            2019-04-30 15:04:59
+exchange_update_timestamp                 None
+exchange_timestamp         2019-04-30 15:04:59
+variety                                     bo
+exchange                                   NSE
+tradingsymbol                       BHARTIARTL
+instrument_token                       2714625
+order_type                               LIMIT
+transaction_type                          SELL
+validity                                   DAY
+product                                     BO
+quantity                                     1
+disclosed_quantity                           1
+price                                    324.1
+trigger_price                                0
+average_price                                0
+filled_quantity                              0
+pending_quantity                             1
+cancelled_quantity                           0
+market_protection                            0
+meta                                      None
+tag                                        bot
+guid                                      None
+account_id                              ZS0527
+unfilled_quantity                            0
+app_id                                   11327
+checksum                                      
+[2019-04-30 15:05:13,424: DEBUG]:Starting new HTTPS connection (1): api.kite.trade:443
+[2019-04-30 15:05:13,777: DEBUG]:https://api.kite.trade:443 "GET /orders HTTP/1.1" 200 None
+[2019-04-30 15:05:25,765: DEBUG]:2019-04-30 15:05:25: In resampler function
+[2019-04-30 15:05:25,784: DEBUG]:BHARTIARTL
+[2019-04-30 15:05:25,787: DEBUG]:                                  open    high     low   close   volume
+symbol     date                                                        
+BHARTIARTL 2019-04-30 15:01:00  320.40  320.95  320.40  320.75  48118.0
+           2019-04-30 15:02:00  320.85  320.90  320.25  320.45  31521.0
+           2019-04-30 15:03:00  320.45  320.50  320.35  320.35  25488.0
+           2019-04-30 15:04:00  320.35  321.30  320.35  321.25  60349.0
+           2019-04-30 15:05:00  320.75  321.10  320.70  321.10  21722.0
+[2019-04-30 15:05:25,792: DEBUG]:                      close    high     low    open   volume
+date                                                        
+2019-04-30 14:56:00  318.60  318.70  318.60  318.60   2895.0
+2019-04-30 14:57:00  318.80  318.95  318.60  318.60  35741.0
+2019-04-30 14:58:00  318.70  318.80  318.65  318.65   3872.0
+2019-04-30 14:59:00  318.55  318.70  318.50  318.50   3445.0
+2019-04-30 15:00:00  319.40  319.50  318.75  318.80  37266.0
+2019-04-30 15:01:00  320.85  320.95  320.40  320.40  26475.0
+2019-04-30 15:02:00  320.80  320.90  320.80  320.85  14776.0
+2019-04-30 15:03:00  320.45  320.50  320.35  320.45   7702.0
+2019-04-30 15:04:00  320.50  320.80  320.35  320.35  29909.0
+2019-04-30 15:05:00  321.10  321.10  320.70  320.75  21722.0
+[2019-04-30 15:05:25,818: DEBUG]:321.1
+[2019-04-30 15:05:49,896: DEBUG]:Starting new HTTPS connection (1): api.kite.trade:443
+[2019-04-30 15:05:50,173: INFO]:New Order Update
+[2019-04-30 15:05:50,174: DEBUG]:                                             0
+placed_by                               ZS0527
+order_id                       190430002596980
+exchange_order_id             1000000006568428
+parent_order_id                190430002596350
+status                               CANCELLED
+status_message                            None
+order_timestamp            2019-04-30 15:05:50
+exchange_update_timestamp                 None
+exchange_timestamp         2019-04-30 15:05:50
+variety                                     bo
+exchange                                   NSE
+tradingsymbol                       BHARTIARTL
+instrument_token                       2714625
+order_type                               LIMIT
+transaction_type                          SELL
+validity                                   DAY
+product                                     BO
+quantity                                     1
+disclosed_quantity                           1
+price                                    324.1
+trigger_price                                0
+average_price                                0
+filled_quantity                              0
+pending_quantity                             0
+cancelled_quantity                           1
+market_protection                            0
+meta                                      None
+tag                                        bot
+guid                                      None
+account_id                              ZS0527
+unfilled_quantity                            0
+app_id                                   11327
+checksum                                      
+[2019-04-30 15:05:50,175: INFO]:New Order Update
+[2019-04-30 15:05:50,176: DEBUG]:                                             0
+placed_by                               ZS0527
+order_id                       190430002596980
+exchange_order_id             1000000006568428
+parent_order_id                190430002596350
+status                               CANCELLED
+status_message                            None
+order_timestamp            2019-04-30 15:05:50
+exchange_update_timestamp                 None
+exchange_timestamp         2019-04-30 15:05:50
+variety                                     bo
+exchange                                   NSE
+tradingsymbol                       BHARTIARTL
+instrument_token                       2714625
+order_type                               LIMIT
+transaction_type                          SELL
+validity                                   DAY
+product                                     BO
+quantity                                     1
+disclosed_quantity                           1
+price                                    324.1
+trigger_price                                0
+average_price                                0
+filled_quantity                              0
+pending_quantity                             1
+cancelled_quantity                           1
+market_protection                            0
+meta                                      None
+tag                                        bot
+guid                                      None
+account_id                              ZS0527
+unfilled_quantity                            0
+app_id                                   11327
+checksum                                      
+[2019-04-30 15:05:50,210: INFO]:New Order Update
+[2019-04-30 15:05:50,211: DEBUG]:                                             0
+placed_by                               ZS0527
+order_id                       190430002596981
+exchange_order_id             1000000006568429
+parent_order_id                190430002596350
+status                                  UPDATE
+status_message                            None
+order_timestamp            2019-04-30 15:05:50
+exchange_update_timestamp                 None
+exchange_timestamp         2019-04-30 15:05:50
+variety                                     bo
+exchange                                   NSE
+tradingsymbol                       BHARTIARTL
+instrument_token                       2714625
+order_type                                  SL
+transaction_type                          SELL
+validity                                   DAY
+product                                     BO
+quantity                                     1
+disclosed_quantity                           1
+price                                   292.95
+trigger_price                            320.5
+average_price                                0
+filled_quantity                              0
+pending_quantity                             1
+cancelled_quantity                           0
+market_protection                            0
+meta                                      None
+tag                                        bot
+guid                                      None
+account_id                              ZS0527
+unfilled_quantity                            0
+app_id                                   11327
+checksum                                      
+[2019-04-30 15:05:50,214: INFO]:New Order Update
+[2019-04-30 15:05:50,214: DEBUG]:                                             0
+placed_by                               ZS0527
+order_id                       190430002596981
+exchange_order_id             1000000006568429
+parent_order_id                190430002596350
+status                                    OPEN
+status_message                            None
+order_timestamp            2019-04-30 15:05:50
+exchange_update_timestamp                 None
+exchange_timestamp         2019-04-30 15:05:50
+variety                                     bo
+exchange                                   NSE
+tradingsymbol                       BHARTIARTL
+instrument_token                       2714625
+order_type                               LIMIT
+transaction_type                          SELL
+validity                                   DAY
+product                                     BO
+quantity                                     1
+disclosed_quantity                           1
+price                                   292.95
+trigger_price                                0
+average_price                                0
+filled_quantity                              0
+pending_quantity                             1
+cancelled_quantity                           0
+market_protection                            0
+meta                                      None
+tag                                        bot
+guid                                      None
+account_id                              ZS0527
+unfilled_quantity                            0
+app_id                                   11327
+checksum                                      
+[2019-04-30 15:05:50,216: INFO]:New Order Update
+[2019-04-30 15:05:50,217: DEBUG]:https://api.kite.trade:443 "DELETE /orders/bo/190430002596980?order_id=190430002596980&variety=bo&parent_order_id=190430002596350 HTTP/1.1" 200 None
+[2019-04-30 15:05:50,218: DEBUG]:                                             0
+placed_by                               ZS0527
+order_id                       190430002596981
+exchange_order_id             1000000006568429
+parent_order_id                190430002596350
+status                                COMPLETE
+status_message                            None
+order_timestamp            2019-04-30 15:05:50
+exchange_update_timestamp                 None
+exchange_timestamp         2019-04-30 15:05:50
+variety                                     bo
+exchange                                   NSE
+tradingsymbol                       BHARTIARTL
+instrument_token                       2714625
+order_type                               LIMIT
+transaction_type                          SELL
+validity                                   DAY
+product                                     BO
+quantity                                     1
+disclosed_quantity                           0
+price                                   292.95
+trigger_price                                0
+average_price                           321.35
+filled_quantity                              1
+pending_quantity                             0
+cancelled_quantity                           0
+market_protection                            0
+meta                                      None
+tag                                        bot
+guid                                      None
+account_id                              ZS0527
+unfilled_quantity                            0
+app_id                                   11327
+checksum                                      
+[2019-04-30 15:05:53,580: DEBUG]:Starting new HTTPS connection (1): api.kite.trade:443
+[2019-04-30 15:05:53,938: DEBUG]:https://api.kite.trade:443 "GET /orders HTTP/1.1" 200 None
