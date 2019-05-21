@@ -8,3 +8,4 @@ kite_data/livestreamohlc.csv
 kite_data/recommendation.csv
 log
 log/*
+*.h5
