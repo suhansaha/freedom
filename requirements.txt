@@ -25,6 +25,7 @@ cycler==0.10.0
 Cython==0.29.6
 dash==0.43.0
 dash-core-components==0.48.0
+dash-daq==0.1.0
 dash-html-components==0.16.0
 dash-renderer==0.24.0
 dash-table==3.7.0
@@ -41,6 +42,7 @@ GitPython==2.1.11
 grpcio==1.19.0
 gunicorn==19.9.0
 h5py==2.9.0
+heroku==0.1.4
 html5lib==1.0.1
 hyperlink==18.0.0
 idna==2.8
