@@ -9,3 +9,7 @@ kite_data/recommendation.csv
 log
 log/*
 *.h5
+venv
+*.pyc
+.DS_Store
+.env
